@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Grumpy-Lion's Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.ico">
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+
+<body class="container py-5 w-100" style="background-color: #0e0e0e;">
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark">
+            <div class="container my-3">
+                <a href="/" class="navbar-brand">
+                    <span>[dev@grumpy.lions] ~ $ </span>
+                    <span>cat /projects</span>
+                    <span class="cursor"></span>
+                </a>
+                <div class="d-flex ms-auto">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="me-auto collapse navbar-collapse " id="navbarNav">
+                        <ul class="navbar-nav ml-auto flex-nowrap">
+                            <li class="nav-item">
+                                <a class="nav-link" href="/">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="./projects.html">Projects</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./education.html">Education</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./experience.html">Experience</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./skills.html">Skills</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <style>
+        .course-card * {
+            color: #0e0e0e;
+        }
+
+        .np {
+            padding: 0;
+        }
+    </style>
+
+    <div class="container mt-5">
+        <h1>Projects</h1>
+        <div class="album py-5">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                <div class="col">
+                    <div class="course-card shadow-sm">
+                        <img style="border-radius: 5px;" src="">
+                        <div class="card-body">
+                            <div class="card-title badge np">
+                                <span class="date-range">Mass Casualty S.T.A.R.T. Triage</span>
+                                <span class="badge internship">In Progress</span>
+                            </div>
+                            <p class="card-text">
+                                A task trainer made in Unreal Engine for the HoloLens 2. The trainer challenges the
+                                participant to correctly triage
+                                five patients using the S.T.A.R.T. triage algorithm. Realistic scene distractors, such
+                                as sirens, yelling, walking
+                                patients, and fire alarms, are implemented.
+                            </p>
+                            <div class="tag-collection">
+                                <span class="experience-tag">XR</span>
+                                <span class="experience-tag">Medical Simulation</span>
+                                <span class="experience-tag">HoloLens 2</span>
+                                <span class="experience-tag">Unreal Engine 5</span>
+                                <span class="experience-tag">Optimization</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="course-card shadow-sm">
+                        <img style="border-radius: 5px;" src="">
+                        <div class="card-body">
+                            <div class="card-title badge np">
+                                <span class="date-range">Central Line Catheterization</span>
+                                <span class="badge internship">In Progress</span>
+                            </div>
+                            <p class="card-text">
+                                A procedure trainer made in Unreal Engine for the HoloLens 2. The trainer walks the
+                                participant through a Ultrasound-Guided
+                                Internal Jugular Central Venous Line Catheterization (US IJ-CVC) procedure. The trainer
+                                utilizes actual ultrasounds
+                                of a patient's internal jugular vein and utilizes over 60 models created by fellow
+                                intern <a href="https://www.linkedin.com/in/brooke-allen-studio">Brooke Allen</a>.
+                            </p>
+                            <div class="tag-collection">
+                                <span class="experience-tag">XR</span>
+                                <span class="experience-tag">Medical Simulation</span>
+                                <span class="experience-tag">HoloLens 2</span>
+                                <span class="experience-tag">Unreal Engine 5</span>
+                                <span class="experience-tag">Documentation</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="course-card shadow-sm">
+                        <img style="border-radius: 5px;" src="">
+                        <div class="card-body">
+                            <div class="card-title badge np">
+                                <span class="date-range">Forever in Your Heart Blender</span>
+                                <span class="badge internship">In Progress</span>
+                            </div>
+                            <p class="card-text">
+                                A Blender plug-in that helps facilitate the creation of keepsakes for neonatal loses
+                                within
+                                Parkview's health system through the <a
+                                    href="https://www.parkview.com/mirro-center/simulation-lab/simulation-lab-services/forever-in-your-heart"
+                                    target="_blank">Forever in Your Heart</a> program.
+                            </p>
+                            <div class="tag-collection">
+                                <span class="experience-tag">Blender</span>
+                                <span class="experience-tag">Python</span>
+                                <span class="experience-tag">AGILE</span>
+                                <span class="experience-tag">Group Project</span>
+                                <span class="experience-tag">Documentation</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="course-card shadow-sm">
+                        <img style="border-radius: 5px;" src="./assets/projects/mastodonctf.png">
+                        <div class="card-body">
+                            <div class="card-title badge np">
+                                <span class="date-range">MastodonCTF</span>
+                                <span class="badge internship">In Progress</span>
+                            </div>
+                            <p class="card-text">
+                                A cybersecurity Capture-The-Flag (CTF) competition created from scratch. It focuses on
+                                nine
+                                basic 'white hat hacker' skills tested over 27 challenges. All challenges are original.
+                            </p>
+                            <div class="tag-collection">
+                                <span class="experience-tag">Cybersecurity</span>
+                                <span class="experience-tag">Database</span>
+                                <span class="experience-tag">UI Design</span>
+                                <span class="experience-tag">Web App Development</span>
+                                <span class="experience-tag">Google Cloud</span>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center pt-3">
+                                <a href="https://mastodonctf.tech/" target="_blank"
+                                    class="btn btn-sm btn-outline-secondary"><i class="bi bi-box-arrow-up-right pe-2"
+                                        style="color:#0e0e0e;"></i>View Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="course-card shadow-sm">
+                        <img style="border-radius: 5px;" src="./assets/projects/ETCS-cybersecurity.jpg">
+                        <div class="card-body">
+                            <div class="card-title badge np">
+                                <span class="date-range">PFW ACM Cyber Range</span>
+                                <span class="badge finished">Finished</span>
+                            </div>
+                            <p class="card-text">
+                                A cybersecurity Capture-The-Flag (CTF) competition created from scratch. It focuses on
+                                nine
+                                basic 'white hat hacker' skills tested over 50 challenges. All challenges are original.
+                            </p>
+                            <div class="tag-collection">
+                                <span class="experience-tag">Cybersecurity</span>
+                                <span class="experience-tag">UI Design</span>
+                                <span class="experience-tag">Group Project</span>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center pt-3">
+                                <a href="https://test.pfw-acm.org/" target="_blank"
+                                    class="btn btn-sm btn-outline-secondary"><i class="bi bi-box-arrow-up-right pe-2"
+                                        style="color:#0e0e0e;"></i>View Demo</a>
+                                <a href="https://github.com/Purdue-Fort-Wayne-ACM/CTF-Training" target="_blank"
+                                    class="btn btn-sm btn-outline-secondary"><i class="bi bi-box-arrow-up-right pe-2"
+                                        style="color:#0e0e0e;"></i>View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="course-card shadow-sm">
+                        <img style="border-radius: 5px;" src="./assets/projects/chatbot.png">
+                        <div class="card-body">
+                            <div class="card-title badge np">
+                                <span class="date-range">Chatbot Teaching Assistant</span>
+                                <span class="badge finished">Finished</span>
+                            </div>
+                            <p class="card-text">
+                                A chatbot teaching assistant created using ChatGPT's API. It includes prompt safe guards
+                                to prevent academic dishonesty and keep student safety in mind.
+                            </p>
+                            <div class="tag-collection">
+                                <span class="experience-tag">GenAI</span>
+                                <span class="experience-tag">UI Design</span>
+                                <span class="experience-tag">Group Project</span>
+                                <span class="experience-tag">Prompt Engineering</span>
+                                <span class="experience-tag">Web App Development</span>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center pt-3">
+                                <a href="https://github.com/grumpy-lions/ChatbotTeachingAssistant" target="_blank"
+                                    class="btn btn-sm btn-outline-secondary"><i class="bi bi-box-arrow-up-right pe-2"
+                                        style="color:#0e0e0e;"></i>View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="course-card shadow-sm">
+                        <img style="border-radius: 5px;" src="./assets/projects/guessword.png">
+                        <div class="card-body">
+                            <div class="card-title badge np">
+                                <span class="date-range">Guess the Word</span>
+                                <span class="badge finished">Finished</span>
+                            </div>
+                            <p class="card-text">
+                                A basic wordle clone in Unity. It uses Unity Remote Configuration to deliver
+                                a dynamic wordlist and connects to an open-source dictionary to help give
+                                hints to the user.
+                            </p>
+                            <div class="tag-collection">
+                                <span class="experience-tag">Unity</span>
+                                <span class="experience-tag">Remote Configuration</span>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center pt-3">
+                                <a href="https://grumpy-lions.github.io/Guess-the-Word/" target="_blank"
+                                    class="btn btn-sm btn-outline-secondary"><i class="bi bi-box-arrow-up-right pe-2"
+                                        style="color:#0e0e0e;"></i>View Demo</a>
+                                <a href="https://github.com/grumpy-lions/Guess-the-Word" target="_blank"
+                                    class="btn btn-sm btn-outline-secondary"><i class="bi bi-box-arrow-up-right pe-2"
+                                        style="color:#0e0e0e;"></i>View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="course-card shadow-sm">
+                        <img style="border-radius: 5px;" src="./assets/projects/Combat_Snap.png">
+                        <div class="card-body">
+                            <div class="card-title badge np">
+                                <span class="date-range">Explorer of the Lost Tomb</span>
+                                <span class="badge finished">Finished</span>
+                            </div>
+                            <p class="card-text">
+                                A basic roguelike dungeon crawler created in Java. Generates dungeons on a room by room
+                                basis.
+                            </p>
+                            <div class="tag-collection">
+                                <span class="experience-tag">Java</span>
+                                <span class="experience-tag">Game Design</span>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center pt-3">
+                                <a href="https://github.com/grumpy-lions/Explorer-of-the-Lost-Tomb" target="_blank"
+                                    class="btn btn-sm btn-outline-secondary"><i class="bi bi-box-arrow-up-right pe-2"
+                                        style="color:#0e0e0e;"></i>View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="course-card shadow-sm">
+                        <img style="border-radius: 5px;" src="./assets/projects/Final.png">
+                        <div class="card-body">
+                            <div class="card-title badge np">
+                                <span class="date-range">Intro to Microsoft Excel VBA</span>
+                                <span class="badge finished">Finished</span>
+                            </div>
+                            <p class="card-text">
+                                A tutorial explaining how to write VBA code for Excel. It walks the reader
+                                through how to create a Pokédex. It gives a brief overview on advanced Excel
+                                topics, such as custom formula definition and GUI creation.
+                            </p>
+                            <div class="tag-collection">
+                                <span class="experience-tag">VB</span>
+                                <span class="experience-tag">Documentation</span>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center pt-3">
+                                <a href="https://github.com/grumpy-lions/Introduction-to-Microsoft-Excel-VBA"
+                                    target="_blank" class="btn btn-sm btn-outline-secondary"><i
+                                        class="bi bi-box-arrow-up-right pe-2" style="color:#0e0e0e;"></i>View
+                                    Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="course-card shadow-sm">
+                        <img style="border-radius: 5px;" height="66%" width="66%;" class="mx-auto"
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg">
+                        <div class="card-body">
+                            <div class="card-title badge np">
+                                <span class="date-range">NWS.net</span>
+                                <span class="badge archived">Archived</span>
+                            </div>
+                            <p class="card-text">
+                                A basic API wrapper wrapping the National Weather Service's API written in C#.net.
+                            </p>
+                            <div class="tag-collection">
+                                <span class="experience-tag">C#.net</span>
+                                <span class="experience-tag">API Wrapper</span>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center pt-3">
+                                <a href="https://github.com/grumpy-lions/NWS.net" target="_blank"
+                                    class="btn btn-sm btn-outline-secondary"><i class="bi bi-box-arrow-up-right pe-2"
+                                        style="color:#0e0e0e;"></i>View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="course-card shadow-sm">
+                        <img style="border-radius: 5px;" src="./assets/projects/superdata.png">
+                        <div class="card-body">
+                            <div class="card-title badge np">
+                                <span class="date-range">Super Data Structure Adventures</span>
+                                <span class="badge archived">Archived</span>
+                            </div>
+                            <p class="card-text">
+                                A Unity project where players learn about various data structure concepts in computer
+                                science
+                                through a playful mini-games inspired by Mario Party or WarioWare.
+                            </p>
+                            <div class="tag-collection">
+                                <span class="experience-tag">Unity</span>
+                                <span class="experience-tag">Data Structures</span>
+                                <span class="experience-tag">Group Project</span>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center pt-3">
+                                <a href="https://grumpy-lions.github.io/Super-Data-Structure-Adventures/"
+                                    target="_blank" class="btn btn-sm btn-outline-secondary"><i
+                                        class="bi bi-box-arrow-up-right pe-2" style="color:#0e0e0e;"></i>View Demo</a>
+                                <a href="https://github.com/grumpy-lions/Super-Data-Structure-Adventures"
+                                    target="_blank" class="btn btn-sm btn-outline-secondary"><i
+                                        class="bi bi-box-arrow-up-right pe-2" style="color:#0e0e0e;"></i>View
+                                    Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
